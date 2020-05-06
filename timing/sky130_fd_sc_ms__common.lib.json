@@ -1,0 +1,515 @@
+{
+  "bus_naming_style": "%s[%d]",
+  "comp_attribute capacitive_load_unit": [
+    1.0,
+    "pf"
+  ],
+  "comp_attribute library_features": "report_delay_calculation",
+  "comp_attribute technology": "cmos",
+  "comp_attribute voltage_map": {
+    "VGND": 0.0,
+    "VNB": 0.0
+  },
+  "current_unit": "1mA",
+  "default_cell_leakage_power": 0.0,
+  "default_fanout_load": 0.0,
+  "default_inout_pin_cap": 0.0,
+  "default_input_pin_cap": 0.0,
+  "default_leakage_power_density": 0.0,
+  "default_max_transition": 1.0,
+  "default_output_pin_cap": 0.0,
+  "delay_model": "table_lookup",
+  "in_place_swap_mode": "match_footprint",
+  "input_threshold_pct_fall": 50.0,
+  "input_threshold_pct_rise": 50.0,
+  "leakage_power_unit": "1nW",
+  "lu_table_template delay_template13x10": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "index_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "variable_1": "input_net_transition",
+    "variable_2": "total_output_net_capacitance"
+  },
+  "lu_table_template delay_template13x12": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "index_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "variable_1": "input_net_transition",
+    "variable_2": "total_output_net_capacitance"
+  },
+  "lu_table_template delay_template13x7": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "index_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "variable_1": "input_net_transition",
+    "variable_2": "total_output_net_capacitance"
+  },
+  "lu_table_template driver_waveform_template": {
+    "index_1": [
+      1,
+      2
+    ],
+    "index_2": [
+      1,
+      2
+    ],
+    "variable_1": "input_net_transition",
+    "variable_2": "normalized_voltage"
+  },
+  "lu_table_template pulse_width_template13": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "variable_1": "related_pin_transition"
+  },
+  "lu_table_template rr_template10x10": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "index_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "variable_1": "constrained_pin_transition",
+    "variable_2": "related_pin_transition"
+  },
+  "lu_table_template sethold_template_fall10x10": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "index_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "variable_1": "constrained_pin_transition",
+    "variable_2": "related_pin_transition"
+  },
+  "lu_table_template sethold_template_rise10x10": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "index_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "variable_1": "constrained_pin_transition",
+    "variable_2": "related_pin_transition"
+  },
+  "lu_table_template vio_10_10_1": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "index_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "variable_1": "related_pin_transition",
+    "variable_2": "constrained_pin_transition"
+  },
+  "nom_process": 1.0,
+  "normalized_driver_waveform driver_waveform_template": {
+    "driver_waveform_name": "ramp",
+    "index_1": [
+      0.01,
+      0.01735,
+      0.02602,
+      0.03125,
+      0.03903,
+      0.05855,
+      0.0625,
+      0.08782,
+      0.125,
+      0.13172,
+      0.19757,
+      0.25,
+      0.29634,
+      0.44449,
+      0.5,
+      0.6667,
+      0.75,
+      1.0,
+      1.25,
+      1.5
+    ],
+    "index_2": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "values": [
+      [
+        0.0,
+        0.0083333333,
+        0.016666667
+      ],
+      [
+        0.0,
+        0.014458333,
+        0.028916667
+      ],
+      [
+        0.0,
+        0.021683333,
+        0.043366667
+      ],
+      [
+        0.0,
+        0.026041667,
+        0.052083333
+      ],
+      [
+        0.0,
+        0.032525,
+        0.06505
+      ],
+      [
+        0.0,
+        0.048791667,
+        0.097583333
+      ],
+      [
+        0.0,
+        0.052083333,
+        0.10416667
+      ],
+      [
+        0.0,
+        0.073183333,
+        0.14636667
+      ],
+      [
+        0.0,
+        0.10416667,
+        0.20833333
+      ],
+      [
+        0.0,
+        0.10976667,
+        0.21953333
+      ],
+      [
+        0.0,
+        0.16464167,
+        0.32928333
+      ],
+      [
+        0.0,
+        0.20833333,
+        0.41666667
+      ],
+      [
+        0.0,
+        0.24695,
+        0.4939
+      ],
+      [
+        0.0,
+        0.37040833,
+        0.74081667
+      ],
+      [
+        0.0,
+        0.41666667,
+        0.83333333
+      ],
+      [
+        0.0,
+        0.55558333,
+        1.1111667
+      ],
+      [
+        0.0,
+        0.625,
+        1.25
+      ],
+      [
+        0.0,
+        0.83333333,
+        1.6666667
+      ],
+      [
+        0.0,
+        1.0416667,
+        2.0833333
+      ],
+      [
+        0.0,
+        1.25,
+        2.5
+      ]
+    ]
+  },
+  "output_threshold_pct_fall": 50.0,
+  "output_threshold_pct_rise": 50.0,
+  "power_lut_template hidden_pwr_template13": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "variable_1": "input_transition_time"
+  },
+  "power_lut_template pwr_template13x10": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "index_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "variable_1": "input_transition_time",
+    "variable_2": "total_output_net_capacitance"
+  },
+  "power_lut_template pwr_template13x12": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "index_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "variable_1": "input_transition_time",
+    "variable_2": "total_output_net_capacitance"
+  },
+  "power_lut_template pwr_template13x7": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "index_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "variable_1": "input_transition_time",
+    "variable_2": "total_output_net_capacitance"
+  },
+  "pulling_resistance_unit": "1kohm",
+  "revision": 1.0,
+  "simulation": "true",
+  "slew_derate_from_library": 1.0,
+  "slew_lower_threshold_pct_fall": 20.0,
+  "slew_lower_threshold_pct_rise": 20.0,
+  "slew_upper_threshold_pct_fall": 80.0,
+  "slew_upper_threshold_pct_rise": 80.0,
+  "time_unit": "1ns",
+  "voltage_unit": "1V"
+}

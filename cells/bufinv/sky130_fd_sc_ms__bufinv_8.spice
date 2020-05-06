@@ -1,0 +1,53 @@
+* NGSPICE file created from sky130_fd_sc_ms__bufinv_8.ext - technology: sky130A
+
+.subckt sky130_fd_sc_ms__bufinv_8 A VGND VNB VPB VPWR Y
+M1000 a_183_48# a_27_368# VPWR VPB pshort w=1.12e+06u l=180000u
++  ad=6.16e+11p pd=5.58e+06u as=1.9824e+12p ps=1.698e+07u
+M1001 VPWR a_183_48# Y VPB pshort w=1.12e+06u l=180000u
++  ad=0p pd=0u as=1.3552e+12p ps=1.138e+07u
+M1002 Y a_183_48# VPWR VPB pshort w=1.12e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1003 VPWR a_183_48# Y VPB pshort w=1.12e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1004 VPWR a_27_368# a_183_48# VPB pshort w=1.12e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1005 a_183_48# a_27_368# VPWR VPB pshort w=1.12e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1006 Y a_183_48# VGND VNB nlowvt w=740000u l=150000u
++  ad=8.954e+11p pd=8.34e+06u as=1.5392e+12p ps=1.304e+07u
+M1007 VPWR A a_27_368# VPB pshort w=1.12e+06u l=180000u
++  ad=0p pd=0u as=3.136e+11p ps=2.8e+06u
+M1008 Y a_183_48# VPWR VPB pshort w=1.12e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1009 VGND a_183_48# Y VNB nlowvt w=740000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1010 a_183_48# a_27_368# VGND VNB nlowvt w=740000u l=150000u
++  ad=4.292e+11p pd=4.12e+06u as=0p ps=0u
+M1011 VPWR a_183_48# Y VPB pshort w=1.12e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1012 Y a_183_48# VPWR VPB pshort w=1.12e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1013 VGND a_183_48# Y VNB nlowvt w=740000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1014 Y a_183_48# VGND VNB nlowvt w=740000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1015 a_183_48# a_27_368# VGND VNB nlowvt w=740000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1016 VPWR a_183_48# Y VPB pshort w=1.12e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1017 Y a_183_48# VPWR VPB pshort w=1.12e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1018 VGND a_183_48# Y VNB nlowvt w=740000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1019 VGND a_27_368# a_183_48# VNB nlowvt w=740000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1020 Y a_183_48# VGND VNB nlowvt w=740000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1021 Y a_183_48# VGND VNB nlowvt w=740000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1022 VGND a_183_48# Y VNB nlowvt w=740000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1023 VGND A a_27_368# VNB nlowvt w=740000u l=150000u
++  ad=0p pd=0u as=2.109e+11p ps=2.05e+06u
+.ends
+

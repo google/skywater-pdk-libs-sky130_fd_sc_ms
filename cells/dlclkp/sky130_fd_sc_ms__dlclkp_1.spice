@@ -1,0 +1,45 @@
+* NGSPICE file created from sky130_fd_sc_ms__dlclkp_1.ext - technology: sky130A
+
+.subckt sky130_fd_sc_ms__dlclkp_1 CLK GATE VGND VNB VPB VPWR GCLK
+M1000 a_261_392# GATE VPWR VPB pshort w=1e+06u l=180000u
++  ad=2.4e+11p pd=2.48e+06u as=1.77765e+12p ps=1.19e+07u
+M1001 a_477_124# a_309_338# a_83_260# VNB nlowvt w=420000u l=150000u
++  ad=1.008e+11p pd=1.32e+06u as=2.692e+11p ps=2.3e+06u
+M1002 VGND CLK a_315_54# VNB nlowvt w=740000u l=150000u
++  ad=1.19302e+12p pd=9.54e+06u as=2.183e+11p ps=2.07e+06u
+M1003 a_83_260# a_309_338# a_261_392# VPB pshort w=1e+06u l=180000u
++  ad=3.676e+11p pd=3.06e+06u as=0p ps=0u
+M1004 a_309_338# a_315_54# VGND VNB nlowvt w=740000u l=150000u
++  ad=2.109e+11p pd=2.05e+06u as=0p ps=0u
+M1005 GCLK a_990_393# VPWR VPB pshort w=1.12e+06u l=180000u
++  ad=3.136e+11p pd=2.8e+06u as=0p ps=0u
+M1006 VPWR a_83_260# a_27_74# VPB pshort w=1.12e+06u l=180000u
++  ad=0p pd=0u as=3.136e+11p ps=2.8e+06u
+M1007 a_487_508# a_315_54# a_83_260# VPB pshort w=420000u l=180000u
++  ad=1.008e+11p pd=1.32e+06u as=0p ps=0u
+M1008 VPWR CLK a_315_54# VPB pshort w=840000u l=180000u
++  ad=0p pd=0u as=2.352e+11p ps=2.24e+06u
+M1009 a_990_393# a_27_74# a_984_125# VNB nlowvt w=640000u l=150000u
++  ad=1.824e+11p pd=1.85e+06u as=1.536e+11p ps=1.76e+06u
+M1010 VPWR a_27_74# a_487_508# VPB pshort w=420000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1011 VPWR a_27_74# a_990_393# VPB pshort w=840000u l=180000u
++  ad=0p pd=0u as=2.352e+11p ps=2.24e+06u
+M1012 a_984_125# CLK VGND VNB nlowvt w=640000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1013 GCLK a_990_393# VGND VNB nlowvt w=740000u l=150000u
++  ad=2.109e+11p pd=2.05e+06u as=0p ps=0u
+M1014 a_309_338# a_315_54# VPWR VPB pshort w=840000u l=180000u
++  ad=2.352e+11p pd=2.24e+06u as=0p ps=0u
+M1015 a_990_393# CLK VPWR VPB pshort w=840000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1016 VGND a_27_74# a_477_124# VNB nlowvt w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1017 VGND a_83_260# a_27_74# VNB nlowvt w=740000u l=150000u
++  ad=0p pd=0u as=2.109e+11p ps=2.05e+06u
+M1018 a_267_80# GATE VGND VNB nlowvt w=640000u l=150000u
++  ad=1.536e+11p pd=1.76e+06u as=0p ps=0u
+M1019 a_83_260# a_315_54# a_267_80# VNB nlowvt w=640000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

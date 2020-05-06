@@ -1,0 +1,85 @@
+* NGSPICE file created from sky130_fd_sc_ms__dfbbn_1.ext - technology: sky130A
+
+.subckt sky130_fd_sc_ms__dfbbn_1 CLK_N D RESET_B SET_B VGND VNB VPB VPWR Q Q_N
+M1000 VGND a_1534_446# a_1611_140# VNB nlowvt w=420000u l=150000u
++  ad=1.55002e+12p pd=1.351e+07u as=1.008e+11p ps=1.32e+06u
+M1001 a_595_119# a_27_74# a_523_119# VNB nlowvt w=420000u l=150000u
++  ad=1.176e+11p pd=1.4e+06u as=8.82e+10p ps=1.26e+06u
+M1002 VGND a_1534_446# a_2412_410# VNB nlowvt w=420000u l=150000u
++  ad=0p pd=0u as=1.134e+11p ps=1.38e+06u
+M1003 VPWR a_978_357# a_936_424# VPB pshort w=840000u l=180000u
++  ad=2.39652e+12p pd=2.021e+07u as=1.764e+11p ps=2.1e+06u
+M1004 Q_N a_1534_446# VPWR VPB pshort w=1.12e+06u l=180000u
++  ad=2.968e+11p pd=2.77e+06u as=0p ps=0u
+M1005 a_311_119# a_200_74# a_595_119# VNB nlowvt w=420000u l=150000u
++  ad=5.1975e+11p pd=3.99e+06u as=0p ps=0u
+M1006 a_540_503# a_474_405# VPWR VPB pshort w=420000u l=180000u
++  ad=1.008e+11p pd=1.32e+06u as=0p ps=0u
+M1007 a_1300_424# a_474_405# VPWR VPB pshort w=840000u l=180000u
++  ad=1.764e+11p pd=2.1e+06u as=0p ps=0u
+M1008 VGND RESET_B a_978_357# VNB nlowvt w=420000u l=150000u
++  ad=0p pd=0u as=1.134e+11p ps=1.38e+06u
+M1009 Q a_2412_410# VGND VNB nlowvt w=740000u l=150000u
++  ad=1.998e+11p pd=2.02e+06u as=0p ps=0u
+M1010 a_523_119# a_474_405# VGND VNB nlowvt w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1011 VPWR RESET_B a_978_357# VPB pshort w=640000u l=180000u
++  ad=0p pd=0u as=1.696e+11p ps=1.81e+06u
+M1012 a_311_119# a_27_74# a_595_119# VPB pshort w=420000u l=180000u
++  ad=3.3585e+11p pd=3.41e+06u as=1.386e+11p ps=1.5e+06u
+M1013 a_474_405# SET_B VPWR VPB pshort w=840000u l=180000u
++  ad=4.452e+11p pd=4.42e+06u as=0p ps=0u
+M1014 VGND D a_311_119# VNB nlowvt w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1015 a_595_119# a_200_74# a_540_503# VPB pshort w=420000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1016 a_1818_76# SET_B VGND VNB nlowvt w=740000u l=150000u
++  ad=5.032e+11p pd=4.56e+06u as=0p ps=0u
+M1017 VPWR D a_311_119# VPB pshort w=420000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1018 a_1486_508# a_27_74# a_1349_114# VPB pshort w=420000u l=180000u
++  ad=1.008e+11p pd=1.32e+06u as=2.688e+11p ps=2.4e+06u
+M1019 a_1920_392# a_978_357# VPWR VPB pshort w=1e+06u l=180000u
++  ad=2.4e+11p pd=2.48e+06u as=0p ps=0u
+M1020 a_474_405# a_595_119# a_867_119# VNB nlowvt w=550000u l=150000u
++  ad=1.925e+11p pd=1.8e+06u as=3.4925e+11p ps=3.47e+06u
+M1021 a_936_424# a_595_119# a_474_405# VPB pshort w=840000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1022 a_1611_140# a_200_74# a_1349_114# VNB nlowvt w=420000u l=150000u
++  ad=0p pd=0u as=6.2825e+11p ps=3.42e+06u
+M1023 VPWR a_1534_446# a_1486_508# VPB pshort w=420000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1024 a_1254_119# a_474_405# VGND VNB nlowvt w=550000u l=150000u
++  ad=1.83125e+11p pd=1.8e+06u as=0p ps=0u
+M1025 VPWR SET_B a_1534_446# VPB pshort w=1e+06u l=180000u
++  ad=0p pd=0u as=5.45e+11p ps=5.09e+06u
+M1026 a_1534_446# a_1349_114# a_1920_392# VPB pshort w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1027 VGND SET_B a_867_119# VNB nlowvt w=550000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1028 a_1349_114# a_27_74# a_1254_119# VNB nlowvt w=550000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1029 Q_N a_1534_446# VGND VNB nlowvt w=740000u l=150000u
++  ad=1.998e+11p pd=2.02e+06u as=0p ps=0u
+M1030 VPWR CLK_N a_27_74# VPB pshort w=1.12e+06u l=180000u
++  ad=0p pd=0u as=3.024e+11p ps=2.78e+06u
+M1031 a_200_74# a_27_74# VPWR VPB pshort w=1.12e+06u l=180000u
++  ad=2.968e+11p pd=2.77e+06u as=0p ps=0u
+M1032 a_867_119# a_978_357# a_474_405# VNB nlowvt w=550000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1033 a_1818_76# a_1349_114# a_1534_446# VNB nlowvt w=740000u l=150000u
++  ad=0p pd=0u as=2.368e+11p ps=2.12e+06u
+M1034 a_1534_446# a_978_357# a_1818_76# VNB nlowvt w=740000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1035 VGND CLK_N a_27_74# VNB nlowvt w=740000u l=150000u
++  ad=0p pd=0u as=2.109e+11p ps=2.05e+06u
+M1036 a_200_74# a_27_74# VGND VNB nlowvt w=740000u l=150000u
++  ad=2.109e+11p pd=2.05e+06u as=0p ps=0u
+M1037 Q a_2412_410# VPWR VPB pshort w=1.12e+06u l=180000u
++  ad=3.024e+11p pd=2.78e+06u as=0p ps=0u
+M1038 a_1349_114# a_200_74# a_1300_424# VPB pshort w=840000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1039 VPWR a_1534_446# a_2412_410# VPB pshort w=840000u l=180000u
++  ad=0p pd=0u as=2.268e+11p ps=2.22e+06u
+.ends
+
