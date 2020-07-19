@@ -1,5 +1,5 @@
 {
-  "comp_attribute voltage_map": [
+  "comp_attribute,voltage_map": [
     [
       "VPB",
       1.95
@@ -18,6 +18,7 @@
     ]
   ],
   "default_arc_mode": "best_edges",
+  "default_operating_conditions": "ff_100C_1v95_pwrlkg",
   "define": [
     {
       "attribute_name": "switching_power_split_model",
@@ -66,8 +67,7 @@
     }
   ],
   "driver_model": "ramp",
-  "leakage_sim_opt": "runlvl=5 accurate=1 method=gear absh=1e-14 absmos=1e-12 relmos=0.01 absi=1e-5 runlvl=5 accurate=1 method=gear absh=1e-14 absmos=1e-12 relmos=0.01 absi=1e-5 runlvl=5 accurate=1 method=gear absh=1e-14 absmos=1e-12 relmos=0.01 absi=1e-5 runlvl=5 accurate=1 method=gear absh=1e-14 absmos=1e-12 relmos=0.01 absi=1e-5",
-  "lu_table_template delay_template13x11": {
+  "lu_table_template,delay_template13x11": {
     "index_1": [
       1,
       2,
@@ -99,7 +99,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template delay_template13x13": {
+  "lu_table_template,delay_template13x13": {
     "index_1": [
       1,
       2,
@@ -133,7 +133,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template delay_template13x14": {
+  "lu_table_template,delay_template13x14": {
     "index_1": [
       1,
       2,
@@ -168,7 +168,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template delay_template13x15": {
+  "lu_table_template,delay_template13x15": {
     "index_1": [
       1,
       2,
@@ -204,7 +204,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template delay_template13x8": {
+  "lu_table_template,delay_template13x8": {
     "index_1": [
       1,
       2,
@@ -233,7 +233,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template delay_template13x9": {
+  "lu_table_template,delay_template13x9": {
     "index_1": [
       1,
       2,
@@ -265,13 +265,13 @@
   },
   "nom_temperature": 100.0,
   "nom_voltage": 1.95,
-  "operating_conditions ff_100C_1v95_pwrlkg": {
+  "operating_conditions,ff_100C_1v95_pwrlkg": {
     "process": 1.0,
     "temperature": 100.0,
     "tree_type": "balanced_tree",
     "voltage": 1.95
   },
-  "power_lut_template pwr_template13x11": {
+  "power_lut_template,pwr_template13x11": {
     "index_1": [
       1,
       2,
@@ -303,7 +303,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template pwr_template13x13": {
+  "power_lut_template,pwr_template13x13": {
     "index_1": [
       1,
       2,
@@ -337,7 +337,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template pwr_template13x14": {
+  "power_lut_template,pwr_template13x14": {
     "index_1": [
       1,
       2,
@@ -372,7 +372,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template pwr_template13x15": {
+  "power_lut_template,pwr_template13x15": {
     "index_1": [
       1,
       2,
@@ -408,7 +408,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template pwr_template13x8": {
+  "power_lut_template,pwr_template13x8": {
     "index_1": [
       1,
       2,
@@ -437,7 +437,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template pwr_template13x9": {
+  "power_lut_template,pwr_template13x9": {
     "index_1": [
       1,
       2,
